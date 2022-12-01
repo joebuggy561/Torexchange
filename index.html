@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torexchange</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2880be0955.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+
+    <div class="container">
+        <nav>
+            <img src="./images/onion.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Market">Markets</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <!-- <a href="#" class="btn">Wallet</a> -->
+            <!-- <i class="fa-light fa-bars"></i> -->
+        </nav>
+
+        <!-- ICONS -->
+        <div class="content">
+            <h1>BUY & SELL<br> <span>Crypto</span> <br>Securely</h1>
+            <p>World Bigest Crypto Currency Exchange</p>
+        </div>
+        <div class="coin-list">
+            <div class="coin">
+                <img src="./images/bitcoin.png">
+                <div>
+                    <h3>$ <span id="bitcoin"></span></h3>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="./images/ethereum.png">
+                <div>
+                    <h3>$ <span id="ethereum"></span></h3>
+                    <p>Ethereum</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="./images/dogecoin.png">
+                <div>
+                    <h3>$ <span id="dogecoin"></span></h3>
+                    <p>Dogecoin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ticker -->
+    <div class="Ticker">
+        <span class="Text">BUZZ</span>
+        <marquee behaviour="" direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+            <div class="box">
+                <p class="date"></p>
+                <a href="#">Lorem ipsum dolor possimus earum vero a praesentium ipsam beatae nemo in officia?</a>
+            </div>
+
+            <div class="box">
+                <p class="date"></p>
+                <a href="#">Lorem ipsum dolor possimus earum vero a praesentium ipsam beatae nemo in officia?</a>
+            </div>
+
+            <div class="box">
+                <p class="date"></p>
+                <a href="#">Lorem ipsum dolor possimus earum vero a praesentium ipsam beatae nemo in officia?</a>
+            </div>
+        </marquee>
+    </div>
+
+    
+    <!-- TradingView Widget BEGIN -->
+
+    <section id="Market">
+    <div class="Market-Cap">
+        <div class="Trading-View">
+                    <div class="Container-Trading-view">
+                    <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                    {
+                    "width": 1000,
+                    "height": 490,
+                    "defaultColumn": "overview",
+                    "screener_type": "crypto_mkt",
+                    "displayCurrency": "USD",
+                    "colorTheme": "light",
+                    "locale": "en",
+                    "isTransparent": true
+                    }
+                    </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Features -->
+    <section id="features">
+        <div class="row">
+            <div class="column">
+                <div class="feature_img">
+                    <img src="./images/open-book.png" alt="learn_image">
+                </div>
+                <h2>Learn</h2>
+                <p><a href="#">Lorem ipsum dolor possimus earum vero a praesentium ipsam beatae nemo in officia?</a></p>
+            </div>
+            <div class="column">
+                <div class="feature_img">
+                    <img src="./images/savings.png" alt="savings_image">
+                </div>
+                <h2>Invest</h2>
+                <p><a href="#">Lorem ipsum dolor possimus earum vero a praesentium ipsam beatae nemo in officia?</a></p>
+            </div>
+            <div class="column">
+                <div class="feature_img">
+                    <img src="./images/communication.png" alt="sell_png">
+                </div>
+                <h2>Sell</h2>
+                <p><a href="#">Lorem ipsum dolor possimus earum vero a praesentium ipsam beatae nemo in officia?</a></p>
+            </div>
+            <div class="column">
+                <div class="feature_img">
+                    <img src="./images/income.png" alt="earn_png">
+                </div>
+                <h2>Earn</h2>
+                <p><a href="#">Lorem ipsum dolor possimus earum vero a praesentium ipsam beatae nemo in officia?</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    
+    <section id="about">
+        <div class="About_us">
+            <div class="about_us_img">
+                <img src="./images/laptop.png" alt="about_img">
+            </div>
+            <div class="about_Text">
+                <h3>Our origins <span>&</span> what we stand for;</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloremque porro perspiciatis? 
+                    Dolore, nostrum voluptatum delectus voluptates blanditiis et, 
+                    perferendis quaerat soluta eligendi qui aperiam incidunt, veniam obcaecati eum! Magni.
+                </p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ceo comment -->
+    
+    <section class="ceo_comment">
+
+        <div class="ceo">
+            <img class="ceo_images" src="./images/onion.png" alt="ceo_png">
+            <h3>CEO's Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                A iste possimus minima aut placeat, quisquam quae dolorem 
+                qui quas in quaerat sunt similique inventore consequuntur 
+                praesentium, rerum esse sequi nemo?
+            </p>
+        </div>
+
+    </section>
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="footer_container">
+            <div class="footer-logo">
+                <img src="./images/onion.png"><p>Torexchange.io<p>
+            </div>
+            <div id="contacts">
+                <h3>Contact Us</h3>
+                <a href="971-585093784"class="tel_num">+971-585093784</a>
+                <a href="mailto:hello.torexchange@gmail.com" class="email">torexchange@gmail.com</a>
+                <address class="address">Aswad Ehias Project Management Services Co. Dubai</address>
+            </div>
+            <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Spot</p>
+                </li>
+      
+                <li>
+                  <a href="shop.html" class="footer-link">Products</a>
+                </li>
+      
+                <li>
+                  <a href="#" class="footer-link">Exchange</a>
+                </li>
+
+                <li>
+                    <a href="about.html" class="footer-link">Services</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Careers</a>
+                </li>
+        
+            </ul>
+            <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">Buy Crypto</p>
+                </li>
+      
+                <li>
+                  <a href="#Markets" class="footer-link">Markets</a>
+                </li>
+      
+                <li>
+                  <a href="#" class="footer-link">Trading Fee</a>
+                </li>
+      
+                <li>
+                  <a href="#" class="footer-link">Affiliate Program</a>
+                </li>
+      
+                <li>
+                  <a href="#" class="footer-link">Referral Program</a>
+                </li>
+            </ul>
+            <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Support</p>
+                </li>
+      
+                <li>
+                  <a href="#" class="footer-link">Help Center</a>
+                </li>
+      
+                <li>
+                  <a href="#" class="footer-link">User Feedback</a>
+                </li>
+      
+                <li>
+                  <a href="#" class="footer-link">Submit a request</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Business Contacts</a>
+                </li>
+      
+              </ul>      
+        </div>
+    </section>
+
+    <section class="footer2">
+        <div class="icons">
+            <a class="footer-link" href="#"><i class="icon fa-brands fa-square-facebook fa-1.5x" style="color: #000;"></i></a>
+            <a class="footer-link" href="#"><i class="icon fa-brands fa-linkedin fa-1.5x" style="color: #000;"></i></a>
+            <a class="footer-link" href="#"><i class="icon fa-brands fa-square-github fa-1.5x" style="color: #000;"></i></a>
+            <a class="footer-link" href="#"><i class="icon fa-brands fa-square-twitter fa-1.5x" style="color: #000;"></i></a>
+        </div>
+        <div class="copyright">
+            <h2><span>©</span>2022 TorexchangeINC.</h2>
+        </div>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>

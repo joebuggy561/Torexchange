@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    padding-top: 100%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Concept-of-a-Bitcoin-exchange-platform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0 7%;
+    color: #fff;
+}
+
+@media only screen and (max-width:1000px){
+
+    nav ul{
+    width: 100%;
+    background: none;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+    text-align: center;
+   }
+
+   nav ul li{
+    font-size: 3.4vw;
+    color: #ff960b;
+   }
+
+   nav ul li:hover{
+    color: #fff;
+   }
+
+   .content{
+    text-align: center;
+    font-size: 10px;
+   }
+
+   .coin-list .coin{
+    display: grid;
+    grid-auto-rows: 39px;
+    }
+
+ 
+    .coin-list .coin h3{
+    font-size: small;
+    text-align: center;
+    }
+
+   .Trading-View{
+    display: none;
+   }
+
+   .content h1{
+      padding-top: 40px;
+       font-size: 75px !important;
+    }
+
+    .content p{
+     color: #ff960b;
+    }
+
+    .Ticker .Text{
+        display: none;
+    }
+
+   .Trading-View{
+    display: none;
+   }
+
+   .column p{
+    display: none;
+   }
+    
+   .about_Text h3{
+    text-align: center;
+    padding: 20px;
+    }
+
+   .about_Text p{
+      padding: 40px;
+   }
+
+    .about_us_img{
+    display: grid;
+    padding-left: 30%;
+ 
+    }
+
+    #features .row{
+        display: grid;
+        grid-template-rows: auto;
+     }
+
+    .about_Text a.btn{
+       display: flex;
+       justify-content: center;
+       margin: 20px;
+    }
+
+    .footer-list{
+      display: none;
+    }
+
+  .footer_container .footer-logo{
+    padding-left: 180%;
+    justify-content: center;
+   } 
+
+      #contacts{
+      font-size: x-small;
+      padding-top: 70%;
+   }
+
+   .footer_container{
+      font-size: small;
+      text-align: center;
+      justify-content: center;
+   }
+
+   .footer2 .icons{
+      margin-right: 50px;
+   }
+
+   .footer2 .copyright{
+      padding-left: 50px;
+   }
+
+   .ceo p{
+      padding-bottom: -30%;
+      display: inline-block;
+      
+   }
+
+
+ 
+    
+
+}
+
+
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover{
+    color: #ff960b;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+} 
+
+.content{
+    margin-top: 12px;
+}
+
+.content h1{
+    font-size: 85px;
+    margin-top: 20px;
+}
+
+.content h1 span{
+    color: #ff960b;
+}
+
+.content p{
+    line-height: 22px;
+    font-size: 14px;
+}
+
+
+/* coin png */
+
+
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #ff960b;
+    border: none;
+    border-radius: 8px;
+}
+
+.coin img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.coin h3{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+
+/* ticker */
+
+marquee{
+    margin: 0px 7px;
+}
+
+.Ticker{
+    padding: 1% 10%;
+    display: flex;
+    align-items: center;
+}
+
+.Text{
+    display: inline;
+    width: 162px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff960b;
+    font-style: italic;
+}
+
+.box{
+    display: inline;
+    padding: 0 40px;
+}
+
+.box a{
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box a:hover{
+    color: #ff960b;
+}
+
+
+.date{
+    display: inline;
+    color: #0000;
+    margin: 0px 6px;
+}
+
+
+.Trading-View{
+    padding: 1% 12%;
+}
+
+.tradingview-widget-copyright{
+    display: none !important;
+}
+
+/* .Container-Trading-view{
+    border: 2px solid #e3d9c6;
+} */
+
+
+/* feature section */
+
+#features{
+    margin: 5px;
+    align-items: center;
+    line-height: 20px;
+    position: relative;
+}
+
+.row{
+    display: table;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.column{
+    background: #fff;
+    display: table-cell;
+    padding: 30px;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.feature_img img{
+    padding: 1% auto;
+    width: 50px;
+}
+
+
+/* about */
+
+.about_us_img img{
+    width: 60%;
+    padding: 3% 10%;
+    align-items: center;
+    float: right;
+}
+
+.about_Text{
+    margin-block-end: 40px; 
+    margin-top: 12px;
+    font-size: 25px;
+    text-align: left;
+    display: block;
+    padding: 3% 10%;
+}
+
+.about_Text h3{
+    font-size: 50px;
+}
+
+.about_Text p{
+    display: block;
+    font-size: medium;
+}
+
+.about_Text span{
+    color: #ff960b;
+}
+
+.about_Text .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background: #ff960b;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.footer_container{
+    padding-top: 100%;
+    width: 100%;
+    height: 30vh;
+    background-color: #212B44;
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+}
+
+.ceo{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;  
+}
+
+.ceo_images{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50px;
+}
+
+
+.footer{
+    padding-block: 100px 90px;
+    padding-bottom:0px;
+}
+
+.footer .footer_container {
+    display: grid;
+    gap: 50px;
+}
+
+.footer-link {
+    color: #ffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.footer-logo img{
+    width: 50px;
+    cursor: pointer;
+}
+
+.footer-link:hover{
+    color: #ff960b;
+}
+
+.footer-list{
+    list-style-type: none;
+    font-size: 15px;
+}
+
+#contacts :not(:last-child){
+    margin-block-end: 12px; 
+}
+
+address { 
+    max-width: 30ch;
+ }
+
+.footer-list > li:not(:last-child) { 
+    margin-block-end: 10px;
+ }
+
+.footer-list > li:first-child { 
+    margin-block-end: 20px;
+ } 
+
+ .footer_container{
+    padding: 25px;
+ }
+
+
+    
+    
+.footer_container{  
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+.company_name span{
+    font-size: large;
+}
+
+.footer2{
+    padding: 0px;
+    margin: 0px 1px 0px 1px;
+}
+
+
+.icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;   
+    float:  right;
+    padding: 10px;
+}
+
+
+.copyright{
+    font-size: 60%;
+    padding: 10px;
+}
+
